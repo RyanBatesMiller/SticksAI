@@ -16,14 +16,13 @@ This is an implementation of the classic hand game **Sticks** (also known as Cho
 ## 🤖 Features
 
 - Human vs AI gameplay.
+- AI vs AI gameplay.
 - User chooses who goes first.
 - Multiple difficulty levels:
   - **beginner**: depth 2
   - **rookie**: depth 5
   - **intermediate**: depth 10
   - **pro**: depth 15
-  - **all-star**: depth 20
-  - **genius**: depth 25
 - Cycle detection — prevents infinite loops by declaring a draw if a state repeats.
 
 ## 🚀 How to Run
@@ -46,7 +45,7 @@ python sticks_game.py
 ✅ Example
 ```bash
 Do you want to go first? (y/n): y
-Choose difficulty (beginner, rookie, intermediate, pro, all-star, genius): intermediate
+Choose difficulty (beginner, rookie, intermediate, pro): intermediate
 
 Current state: ((1, 1), (1, 1))
 
