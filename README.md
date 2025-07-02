@@ -30,18 +30,21 @@ This is an implementation of the classic hand game **Sticks** (also known as Cho
 
 ```bash
 python sticks_game.py
+```
 📌 How to Play
 
-Choose whether to go first or second.
-Choose your difficulty.
-On your turn, pick Attack Left, Attack Right, or Bump.
-If your bump move has multiple results, you can choose the configuration.
+1. Choose whether to go first or second.
+2. Choose your difficulty.
+3. On your turn, pick Attack Left, Attack Right, or Bump.
+*If your bump move has multiple results, you can choose the configuration.*
+
 📂 File Structure
 
-sticks_ai.py — The main game logic.
-README.md — This file.
+- sticks_ai.py — The main game logic.
+- README.md — This file.
+  
 ✅ Example
-
+```bash
 Do you want to go first? (y/n): y
 Choose difficulty (beginner, rookie, intermediate, pro, all-star, genius): intermediate
 
@@ -55,7 +58,7 @@ Enter move (1-3): 1
 
 AI is thinking...
 AI chose: ((0, 2), (1, 1))
-
+```
 ...
 ✍️ Author
 Ryan Miller
